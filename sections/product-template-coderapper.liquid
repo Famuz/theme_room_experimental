@@ -28,7 +28,7 @@
           {% for variant in product.variants %}
             <option
               {% if selectedVariant.id == variant.id %}
-                selected
+                selected 
               {% endif %}
               value="{{ variant.id }}"
             >

@@ -1,4 +1,4 @@
-/* class CartRemoveButton extends HTMLElement {
+class CartRemoveButton extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('click', (event) => {
@@ -166,4 +166,3 @@ if (!customElements.get('cart-note')) {
     }
   });
 };
- */
